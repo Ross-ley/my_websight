@@ -1,0 +1,113 @@
+.container {
+ margin-left: auto;
+ margin-right: auto;
+ padding: 0 15px;
+ width:70%;
+}
+/*--- main tages---*/
+body {
+  margin: 0;
+  margin-top: 0;
+  line-height: 23px;
+  font-size: 1.2rem;
+  background-color: #03c9a9;
+  font-family: 'Hind Vadodara', sans-serif;
+}
+h1 {
+  font-family: 'Noto Sans JP', sans-serif;
+  margin-top: 0;
+}
+h2{
+  font-family: 'Libre Franklin', sans-serif;
+  margin-top: 70px;
+}
+th {
+  font-family: 'Aleo', serif;
+}
+a {
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: blue;
+  text-decoration: underline;
+  color: #FE0D0D;
+}
+ul {
+  list-style: none;
+  text-align: center;
+}
+li{
+  display: inline-block;
+}
+td {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+footer {
+  display: inline-block;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+/*--- classes in header--*/
+.TBcolor {
+ background-color: #22a7f0;
+ text-align: center;
+ padding-top: 10px;
+}
+.pic {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 300px;
+  height:300px;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+/*--- classes in body--*/
+.info {
+ max-width: 50%;
+ float: left;
+}
+.tbpad {
+text-align: center;
+float: right;
+padding-bottom: 30px;
+}
+.clear{
+ clear: both;
+}
+.widthinfo{
+ width:50%
+}
+.link-space {
+  padding-right: 3px;
+}
+/*--- classes in footer--*/
+.link-space-fa {
+  padding-right: 10px;
+}
+/*--- clearfix--*/
+.clearfix::after {
+   content: "";
+   clear: both;
+   display: table;
+}
+/*--- media querys--*/
+
+/*--- info class--*/
+/*
+--fonts
+font-family: 'Aleo', serif;
+font-family: 'Libre Franklin', sans-serif;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Hind Vadodara', sans-serif;
+
+--color palits
+#22a7f0 --dogger blue for header and footer
+#03c9a9 -- caribbean green for main body
+#FE0D0D-- mango red for hover links
