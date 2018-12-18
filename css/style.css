@@ -1,8 +1,7 @@
 .container {
- margin-left: auto;
- margin-right: auto;
  padding: 0 15px;
  width:70%;
+ margin: 0 auto;
 }
 /*--- main tages---*/
 body {
@@ -47,9 +46,10 @@ td {
 }
 footer {
   display: inline-block;
-  width: 100%;
-  position: absolute;
+  position: fixed;
+  left: 0;
   bottom: 0;
+  width: 100%;
 }
 /*--- classes in header--*/
 .TBcolor {
@@ -69,10 +69,6 @@ footer {
   padding-bottom: 10px;
 }
 /*--- classes in body--*/
-.info {
- max-width: 50%;
- float: left;
-}
 .tbpad {
 text-align: center;
 float: right;
@@ -87,9 +83,30 @@ padding-bottom: 30px;
 .link-space {
   padding-right: 3px;
 }
+.Card {
+  padding: 1px;
+  box-shadow: 10px 10px 50px 10px rgba(0, 43, 128, 0.5);
+  border-radius: 20px 20px;
+}
+.border {
+  /* border: 1px solid rgba(76, 234, 192, 0.5);  */
+  border-radius: 20px 20px;
+  border: 1px solid rgba(41, 103, 45, 1);
+  padding: 5px
+}
+.info {
+ max-width: 48%;
+ float: left;
+ border-radius: 5px;
+}
 /*--- classes in footer--*/
 .link-space-fa {
   padding-right: 10px;
+}
+.shadow {
+  /* border: 1px solid black; */
+  padding: 1px;
+  box-shadow: 20px 20px 100px rgba(76, 234, 192, 1);
 }
 /*--- clearfix--*/
 .clearfix::after {
